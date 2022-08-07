@@ -13,7 +13,7 @@ stock **closing price** and ***volume price*** Of period '1d'
 
 # https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 #define the ticker symbol
-tickerSymbol = st.text_input('Enter the symbol')
+tickerSymbol = st.text_input('Enter the stock symbol (EG : TSLA,MSFT)')
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
