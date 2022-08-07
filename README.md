@@ -1,2 +1,1 @@
-# daisi-starter-template
-Example daisi repository
+stock price predictor
